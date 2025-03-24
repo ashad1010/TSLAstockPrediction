@@ -30,7 +30,7 @@ import numpy as np
 # Set the starting constraints (starting balance and transaction fee) and the time window for simulated trading
 STARTING_BALANCE = 10000
 TRANSACTION_FEE = 0.01  # 1%
-TRADING_DAYS = pd.date_range(start="2025-03-10", end="2025-03-10", freq='B')  # Changing these dates each day before 9 AM during testing week
+TRADING_DAYS = pd.date_range(start="2025-03-24", end="2025-03-28", freq='B')  # Changing these dates each day before 9 AM during testing week
 
 # Initialize Portfolio State
 # Tracks balance, shares held, and daily trade logs
